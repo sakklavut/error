@@ -7,12 +7,12 @@
     <link rel="stylesheet" href="error.css">
 </head>
 <body>
-    <div class="row">
+   
         <div class="content">
             <h1>Error 403 </h1>
             <p class="page-not-found "> Forbidden</p>
             <p >Access to this resource on the server is denied!</p>
         </div>
-    </div> 
+    
 </body>
 </html>

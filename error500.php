@@ -8,12 +8,12 @@
     
 </head>
 <body>
-    <div class="row">
+    
         <div class="content">
             <h1>Error 500 </h1>
             <p class="page-not-found"> Internal Server Error</p>
             <p >Sorry, something went wrong :(</p>
         </div>
-    </div> 
+    
 </body>
 </html>

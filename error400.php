@@ -7,10 +7,9 @@
     <link rel="stylesheet" href="error.css">
 </head>
 <body>
-    
         <div class="content">
             <h1>Error 400 </h1>
-            <p class="page-not-found "> Bad Request</p>
+            <p class="page-not-found ">Bad Request</p>
             <p >Sorry, something went wrong :(</p>
         </div>
     

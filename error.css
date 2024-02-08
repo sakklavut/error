@@ -1,7 +1,5 @@
 body {
     text-align: center;
-    margin: 0;
-    padding: 0;
     background: url('backg.png') no-repeat center center fixed;
     background-size: cover;
     color: #00046F;
@@ -13,7 +11,8 @@ body {
     border-radius: 10px;
     width: 100%;
     line-height: 0.3; /* Reduce line spacing */
-    text-align: center; /* Align content horizontally center */
+    text-align: center; 
+    /* Align content horizontally center */
 }
 
 /* เพิ่ม text-align: center; เพื่อให้ข้อความส่วนหัวและข้อความย่อยต้องเรียงกึ่งกลางแนวนอน */
@@ -50,7 +49,7 @@ body {
 
 @media (max-width: 600px) {
     h1 {
-        font-size: 50px;
+        font-size: 70px;
     }
     .content {
         padding: 25px;
@@ -59,9 +58,9 @@ body {
         width: 100%;
     }
     .page-not-found {
-        font-size: 25px;
+        font-size: 40px;
     }
     p {
-        font-size: 12px;
+        font-size: 25px;
     }
 }
