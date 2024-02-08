@@ -1,0 +1,67 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: url('backg.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #00046F;
+}
+
+.content {
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    width: 100%;
+    line-height: 0.3; /* Reduce line spacing */
+    text-align: center; /* Align content horizontally center */
+}
+
+/* เพิ่ม text-align: center; เพื่อให้ข้อความส่วนหัวและข้อความย่อยต้องเรียงกึ่งกลางแนวนอน */
+    h1{
+    text-align: center;
+    font-size: 200px;
+}
+    p{
+    text-align: center;
+    font-size: 40px;
+}
+
+.page-not-found {
+    font-size: 90px;
+}
+
+@media (max-width: 950px) {
+    h1 {
+        font-size: 100px;
+    }
+    .content {
+        padding: 25px;
+        border-radius: 10px;
+        margin-bottom: 300px;
+        width: 100%;
+    }
+    .page-not-found {
+        font-size: 50px;
+    }
+    p {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 50px;
+    }
+    .content {
+        padding: 25px;
+        border-radius: 10px;
+        margin-bottom: 100%;
+        width: 100%;
+    }
+    .page-not-found {
+        font-size: 25px;
+    }
+    p {
+        font-size: 12px;
+    }
+}
