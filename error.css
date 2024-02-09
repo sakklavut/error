@@ -6,7 +6,7 @@ body {
 }
 
 .content {
-    padding: 50px;
+
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 10px;
     width: 100%;
@@ -34,8 +34,6 @@ body {
         font-size: 100px;
     }
     .content {
-        padding: 25px;
-        border-radius: 10px;
         margin-bottom: 300px;
         width: 100%;
     }
@@ -52,8 +50,6 @@ body {
         font-size: 70px;
     }
     .content {
-        padding: 25px;
-        border-radius: 10px;
         margin-bottom: 100%;
         width: 100%;
     }
@@ -64,3 +60,21 @@ body {
         font-size: 25px;
     }
 }
+
+@media (max-width: 350px) {
+    h1 {
+        font-size: 40px;
+    }
+    .content {
+     
+        margin-bottom: 100%;
+        width: 100%;
+    }
+    .page-not-found {
+        font-size: 20px;
+    }
+    p {
+        font-size: 16px;
+    }
+}
+
