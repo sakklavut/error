@@ -8,7 +8,7 @@
 </head>
 <body>
         <div class="content">
-            <h1>Error 400 </h1>
+            <h1 class="ตั้งชื่อ class ให้คล้องกัน">Error 400 </h1>
             <p class="page-not-found ">Bad Request</p>
             <p >Sorry, something went wrong :(</p>
         </div>
